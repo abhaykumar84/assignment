@@ -29,7 +29,7 @@ let UserSchema = new Schema({
 
 
 
-// Creating a model for the user collection in the database
+// Creating a model for the user collection in the database using UserSchema
 const User = mongoose.model('User', UserSchema);
 
 // Exporting the model
